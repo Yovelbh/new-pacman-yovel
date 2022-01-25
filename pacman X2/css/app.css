@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  background-image: url(../img/3.jpg);
+  background-size:cover;
+}
+@font-face {
+  font-family: pacmanFont;
+  src: url(/fonts/pacman-font.ttf);
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+   color: blue;
+}
+
+.play-again {
+  background-color: rgb(161, 56, 56);
+  color: rgb(205, 251, 0);
+  text-align:start;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+  font-family:'Courier New', Courier, monospace;
+  height: 50px;
+  width: 415px;
+  line-height: 80px;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 10px auto;
+  display: none;
+}
+
+.board-container {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+ background-color: black;
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 1px -4px 20px 29px rgba(0,0,0,0.43);;
+}
+
+/* table{
+  
+  margin: 0 auto;
+} */
+h2{
+  text-align:center;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -39px -4px 9px rgba(206,89,55,0.35);
+  color: yellow;
+}
+.cell{
+  color:rgb(223, 218, 231);
+}
+
+  
+  h1{
+    width: 30px;
+    height: 30px;
+    font-size: xx-large;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 10);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -39px -4px 9px rgba(206,89,55,0.35);
+    color: yellow;
+  }
+  
